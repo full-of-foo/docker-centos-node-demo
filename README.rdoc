@@ -1,0 +1,13 @@
+==Demo Docker Rails App
+
+Just fiddling with Docker (simple Rails PG app)
+
+===Getting Started (OS X)
+
+ - Install VirtualBox https://www.virtualbox.org/wiki/Downloads
+ - Install Docker deps `brew install boot2docker docker docker-compose`
+ - Initialise and start your tinyVM `boot2docker init && boot2docker up`
+ - Build le containers `docker-compose build`
+ - Setup le DB `docker-compose run web rake db:setup db:create db:migrate`
+ - Run le services `docker-compose up`
+ - Open le browser `open http://$(boot2docker ip):3000`
