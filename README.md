@@ -1,8 +1,10 @@
-==Demo CentOS Node App
+Demo CentOS Node App
+==
 
 Just fiddling with Docker (simple Node app)
 
-===Getting Started (OS X)
+Getting Started (OS X)
+--
 
  - Install VirtualBox https://www.virtualbox.org/wiki/Downloads
  - Install Docker deps `brew install boot2docker docker`
